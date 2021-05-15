@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fireworks.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Selamat Hari Raya</title>
+</head>
+<body>
+
+    <div id="loading">
+        <div id="loadingSymbol"></div>
+    </div>
+
+    <div class="text message one hide">SELAMAT HARI RAYA</div>
+    <div class="text message two hide">Maaf Zahir dan Batin</div>
+    <div class="text message credit hide">From ZumTheZazaKing</div>
+
+    <button id="start">Start</button>
+
+    <p class="text reminder"><i class="fa fa-volume-up"></i> <b>SOUND ON</b></p>
+
+
+    <div class="text dialog">It's that time of year again...</div>
+
+    <div class="shape square"></div>
+
+    <div class="shape circle"></div>
+
+    <div class="shape triangle"></div>
+
+
+    <!--Fireworks Container-->
+    <div class="pyro hide">
+        <div class="before"></div>
+        <div class="after"></div>
+    </div>
+
+    <div class="covidModal hide blink">
+        <div class="fas fa-virus spin"></div>
+        <div class="text covid">COVID-19</div>
+        <div class="text covid desc">KEEP YOUR DISTANCE</div>
+    </div>
+
+    <!--Audio Files-->
+    <audio id="rayaSong" src="rayaLofiSong.mp3" loop></audio>
+    <audio id="lofiSong" src="lofiSong.mp3"></audio>
+    <audio id="staticSound" src="static.mp3"></audio>
+    <audio id="evilLaugh" src="evilLaugh.mp3"></audio>
+    
+    <script defer src="script.js"></script>
+
+</body>
+</html>
