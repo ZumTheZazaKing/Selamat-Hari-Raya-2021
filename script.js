@@ -33,7 +33,7 @@ let lines = [
     "To spend your time with",
     "And that my friend...",
     "Is special enough",
-    "So dont't look down, look up",
+    "So don't look down, look up",
     "Be glad...",
     "That you got to see it...",
     "To the very end..."
